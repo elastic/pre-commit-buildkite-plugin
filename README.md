@@ -1,6 +1,6 @@
 # Pre-Commit Buildkite Plugin
 
-A Simple oppinionated plugin to run [pre-commit](https://github.com/elastic/hermit-buildkite-plugin/tree/main) as part of a BuidKite pipeline.
+A Simple opinionated plugin to run [pre-commit](https://github.com/elastic/hermit-buildkite-plugin/tree/main) as part of a BuidKite pipeline.
 
 Pre-commit will run for changes in the PR for PRs and will run on all files when running on the main branch.
 
