@@ -1,0 +1,7 @@
+name: pre-commit-buildkite-plugin
+description: A buildkite plugin to run https://pre-commit.com
+author: https://github.com/alpar-t
+requirements: []
+configuration:
+  properties: {}
+  additionalProperties: false
