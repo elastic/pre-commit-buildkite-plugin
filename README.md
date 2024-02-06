@@ -17,5 +17,5 @@ Add the following to your `pipeline.yml`:
 steps:
   - command: "<your-command>"
     plugins:
-      - elastic/pre-commit#v1.0.0
+      - elastic/pre-commit#v1.0.1
 ```

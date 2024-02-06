@@ -5,5 +5,6 @@ set -euo pipefail
 if [ "$BUILDKITE_PULL_REQUEST" == "false" ]; then
   pre-commit run -a
 else
+  git fetch origin "$BUILDKITE_PULL_REQUEST_BASE_BRANCH":"$BUILDKITE_PULL_REQUEST_BASE_BRANCH"
   pre-commit run --from-ref "$BUILDKITE_PULL_REQUEST_BASE_BRANCH" --to-ref HEAD --show-diff-on-failure
 fi
