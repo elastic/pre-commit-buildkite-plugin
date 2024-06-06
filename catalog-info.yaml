@@ -12,7 +12,7 @@ metadata:
 
 spec:
   type: buildkite-pipeline
-  owner: group:release-eng
+  owner: group:platform-dev-flow
   system: buildkite
   implementation:
     apiVersion: buildkite.elastic.dev/v1
@@ -24,7 +24,7 @@ spec:
       repository: elastic/pre-commit-buildkite-plugin
       pipeline_file: ".buildkite/pipeline.yml"
       teams:
-        release-eng:
-          access_level: MANAGE_BUILD_AND_READ
+        release-eng: {}
+        platform-dev-flow: {}
         everyone:
           access_level: READ_ONLY
