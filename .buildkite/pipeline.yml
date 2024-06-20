@@ -13,4 +13,4 @@ steps:
           id: elastic/pre-commit
     agents:
       provider: "gcp"
-      image: family/ci-ubuntu-2204
+      image: family/core-ubuntu-2204
