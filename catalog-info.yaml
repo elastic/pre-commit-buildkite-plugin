@@ -24,7 +24,6 @@ spec:
       repository: elastic/pre-commit-buildkite-plugin
       pipeline_file: ".buildkite/pipeline.yml"
       teams:
-        ci-systems: {}
         ci-systems:
           access_level: MANAGE_BUILD_AND_READ
         everyone:
